@@ -8,6 +8,8 @@ import AppAbout from './components/about';
 import AppService from './components/services';
 import AppWorks from './components/works';
 import AppTeams from './components/teams';
+import AppTestimonials from './components/testimonials';
+
 function App() {
   return (
     <div className="App">
@@ -20,6 +22,9 @@ function App() {
         <AppService />
         <AppWorks />
         <AppTeams />
+        <AppTestimonials />
+
+
       </main>
     
     </div>
