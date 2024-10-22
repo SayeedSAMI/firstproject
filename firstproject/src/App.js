@@ -7,6 +7,7 @@ import AppHero from './components/hero';
 import AppAbout from './components/about';
 import AppService from './components/services';
 import AppWorks from './components/works';
+import AppTeams from './components/teams';
 function App() {
   return (
     <div className="App">
@@ -18,7 +19,7 @@ function App() {
         <AppAbout />
         <AppService />
         <AppWorks />
-        
+        <AppTeams />
       </main>
     
     </div>
